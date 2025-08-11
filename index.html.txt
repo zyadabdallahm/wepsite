@@ -1,62 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>موقعي الشخصي - زياد عبد الللاه</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">زياد عبد الللاه</div>
-            <ul class="nav-links">
-                <li><a href="#home">الرئيسية</a></li>
-                <li><a href="#about">عنّي</a></li>
-                <li><a href="#skills">المهارات</a></li>
-                <li><a href="#projects">المشاريع</a></li>
-                <li><a href="#contact">تواصل</a></li>
-            </ul>
-            <button id="modeToggle">🌙</button>
-        </nav>
-    </header>
-
-    <section id="home" class="section home">
-        <h1>أهلاً بيك في موقعي</h1>
-        <button onclick="scrollToSection('about')" class="start-btn">ابدأ</button>
-    </section>
-
-    <section id="about" class="section about">
-        <img src="E:\remove.photos-removed-background (7).png" alt="صورة زياد" class="profile-img" />
-        <h2>عنّي</h2>
-        <p>أنا زياد عبد الللاه، مبرمج مبتدئ بـ C++, Python, C#, HTML, CSS, JS, .NET, Bootstrap, React — وابن أبويا ❤️</p>
-    </section>
-
-    <section id="skills" class="section skills">
-        <h2>المهارات</h2>
-        <ul>
-            <li>C++</li>
-            <li>Python</li>
-            <li>C#</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>.NET, Bootstrap, React</li>
-        </ul>
-    </section>
-
-    <section id="projects" class="section projects">
-        <h2>المشاريع</h2>
-        <p>قريباً...</p>
-    </section>
-
-    <section id="contact" class="section contact">
-        <h2>تواصل معي</h2>
-        <p>الإيميل: example@email.com</p>
-    </section>
-
-    <footer>
-        <p>© 2025 جميع الحقوق محفوظة - زياد عبد الللاه</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
